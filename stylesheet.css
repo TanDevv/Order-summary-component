@@ -1,3 +1,5 @@
+/* Custom Properties */
+
 :root {
     --clr-primary-blue: hsl(225, 100%, 94%);
     --clr-primary-brightblue: hsl(245, 75%, 52%);
@@ -12,6 +14,8 @@
     --fw-black-900: 900;
     --fs-paragraph: 16px;
 }
+
+/* CSS Reset */
 
 /*
   1. Use a more-intuitive box-sizing model.
@@ -66,6 +70,8 @@
     isolation: isolate;
   }
 
+  /* General Styling */
+
   body {
     background-color:var(--clr-primary-blue);
     background-image: url(./images/pattern-background-desktop.svg);
@@ -93,6 +99,8 @@
     max-width: 400px;
   }
 
+  /* Card Styling */
+
   .card__img {
     padding-bottom: 0.5rem;
   }
@@ -119,6 +127,8 @@
 
     margin: 1rem;
   }
+
+  /* Flex Group Styling */
 
   .flex__group {
     background-color: var(--clr-neutral-paleblue);
@@ -152,6 +162,8 @@
 
     text-decoration: none;
   }
+
+  /* Button/End Styling */
 
   .card__button {
     background-color: var(--clr-primary-brightblue);
@@ -187,6 +199,8 @@
     cursor: pointer;
   }
   
+  /* Footer Styling */
+
 .attribution {
     color: black;
     font-weight: var(--fw-bold-700); 
@@ -200,6 +214,8 @@
 .attribution a:is(:hover, :active) { 
     color: black; 
 }
+
+/* Desktop Responsiveness */
 
 @media (min-width: 600px) {
     
