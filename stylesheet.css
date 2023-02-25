@@ -196,3 +196,33 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+.attribution a:is(:hover, :active) { 
+    color: black; 
+}
+
+@media (min-width: 600px) {
+    
+    .card__title {
+        font-size: 1.6rem;
+    }
+
+    .flex__group {
+    justify-content: space-around;
+
+    padding: 1.4rem;
+    margin: 0.6rem;
+    }
+
+    .card-group__plan {
+    font-size: 1rem;
+      }
+    
+    .card-group__price {
+    font-size: 1.025rem;
+      }
+
+    .attribution {
+        font-size: 1rem;
+    }
+}
