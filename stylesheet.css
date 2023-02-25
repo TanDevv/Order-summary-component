@@ -135,10 +135,15 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     
     padding: 1rem;
+    margin: 0.3rem;
     border-radius: 0.6rem;
+  }
+
+  .card-group__text {
+    flex-direction: row;
   }
 
   .card-group__plan {
@@ -154,7 +159,7 @@
   .card-group__change {
     font-size: 0.8rem;
     font-weight: var(--fw-bold-700);
-    margin-left: 2.3rem;
+    margin-left: 2.6rem;
   }
 
   .card-group__change:is(:hover, :active) {
@@ -228,6 +233,10 @@
 
     padding: 1.4rem;
     margin: 0.6rem;
+    }
+
+    .card__button {
+      margin: 0.8rem;
     }
 
     .card-group__plan {
